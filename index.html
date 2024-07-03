@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+        <h1>Cricket Game</h1>
+        
+        <div class="team-selection">
+            <label for="team1">Select Team:</label>
+            <select id="team1">
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Australia">Australia</option>
+                <option value="England">England</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Newzeland">Newzeland</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Westindies">Westindies</option>
+            </select>
+
+            <label for="team2">Select Opponent Team:</label>
+            <select id="team2">
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Australia">Australia</option>
+                <option value="England">England</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Newzeland">Newzeland</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Westindies">Westindies</option>
+            </select>
+        </div>
+
+        <div class="overs-selection">
+            <label for="overs">Select Overs:</label>
+            <select id="overs">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+
+            </select>
+        </div>
+
+        <button id="startGame">Start Game</button>
+
+        <div class="scoreboard">
+            <h2>Scoreboard</h2>
+            <p id="score">Score: 0</p>
+            <p id="wickets">Wickets: 0</p>
+            <p id="balls">Balls: 0</p>
+            <p id="oversCompleted">Overs: 0</p>
+            
+        </div>
+
+        <div class="opponent-scoreboard">
+            <h2>Opponent Scoreboard</h2>
+            <p id="opponentScore">Score: 0</p>
+            <p id="opponentWickets">Wickets: 0</p>
+            <p id="opponentBalls">Balls: 0</p>
+            <p id="opponentOversCompleted">Overs: 0</p>
+            
+        </div>
+
+        <button id="playBall" disabled>Play Ball</button>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
